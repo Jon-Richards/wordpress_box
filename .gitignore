@@ -1,0 +1,7 @@
+.vagrant
+node_modules/
+config/wordpress/*
+!config/wordpress/wp-config.php
+live/*
+dev/*
+logs/*
