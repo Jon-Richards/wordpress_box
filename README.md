@@ -15,9 +15,8 @@ A simple Vagrant based development environment for Wordpress themes.
 
 ### Re-installation
 1) Remove `setup_apache_complete`, `setup_db_complete`, and `setup_wordpress_complete` from `/logs`.
-2) `$ vagrant halt`
-3) `$ vagrant destroy`
-4) `$ vagrant up --provision`
+2) `$ vagrant destroy`
+3) `$ vagrant up --provision`
 
 ### Notes
 * The MySQL database on the VM uses 'root' for both its username and password.  (Obviously this project is only for LOCAL development.)
